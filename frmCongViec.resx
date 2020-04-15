@@ -117,35 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="MaLoai.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="MaCV.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="TenLoai.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="TenCV.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAABMLAAATCwAAAAAAAAAA
-        AAD///8C////B////wz///8N////Df///w3///8N////DP///wj///8E////AQAAAAAAAAAAAAAAAAAA
-        AAAAAAAA////CFdXV05DQ0OFSEhIiUhISIlISEiJSEhIiUZGRYdra2tefn5+Sf///x3///8Q////Bv//
-        /wEAAAAAAAAAAP///w8xMTChAQEB/wEBAf8BAQH/AQEB/wEBAf8BAQH/AQEB/wEBAf8MDAztNjY2oqmo
-        qTL///8L////AQAAAAD///8RODg4pgEBAf8BAQH/AQEB/wEBAf8BAQH/AQEB/wEBAf8BAQH/AQEB/wEB
-        Af8ODg7rg4KDS////woAAAAA////ETo6OaYCAgL/AgIC/wICAv8CAgL/AgIC/wICAv8CAgL/AgIC/wIC
-        Av8CAgL/AgIC/xEREebW1tYi////A////xE7OzqmAwMD/wMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/wMD
-        A/8DAwP/AwMD/wMDA/8DAwP/VFRUef///wv///8RPDw8pgQEBf8EBAX/BAQF/wQEBf8EBAX/dHR0f1lZ
-        WY0MDA32BAQF/wQEBf8EBAX/BAQF/y0tLbz///8T////ET49PaYGBgb/BwcH/wcHB/8HBwf/BwcH/5+f
-        nkf///8fRkVFqAcHB/8HBwf/BgYG/wYGBv8fHx/a////GP///xE/Pz+mCAgI/wgICP8JCQn/CgoK/wsL
-        C/+amppC////GU5OTp0JCQn/CAgI/wgICP8ICAj/Gxsb4P///xn///8RQkFBpgsLC/8ODg7/EBAQ/xIS
-        Ev8SEhL/tLS0Vqiop1IjIyPoERER/w8PD/8NDQ3/CwsL/y4uLcX///8V////EURERKYRERH/FBQU/xYW
-        Fv8XFxf/GBgY/xsbG/sYGBj/FxcX/xYWFv8VFRX/ExMT/xAQEP9cXFx8////C////xFISEimFhYW/xgY
-        GP8bGxv/HR0d/x4eHv8eHh7/Hh4e/x0dHf8cHBz/GRkZ/xcXF/8rKyrZ6enpHv///wP///8RTExMphoa
-        Gv8dHR3/ICAg/yIiIv8jIyP/IyMj/yMjI/8iIiL/ISEh/x8fH/81NTTVvr29MP///wgAAAAA////D0pK
-        SqEfHx//IiIi/yQkJP8mJib/JiYm/ycnJ/8mJib/JiYm/zMzM+VeXl6Qzs7OJf///wj///8BAAAAAP//
-        /whwb29OYGBfhWZmZYlnZ2aJaGhniWhoaIloaGeIdXV0cY6Ojk////8c////Dv///wT///8BAAAAAAAA
-        AAD///8C////B////wz///8N////Df///w3///8N////DP///wr///8G////AgAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAB8AAAADAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAB
-        AAAAAwAAAB8AAA==
-</value>
-  </data>
+  <metadata name="MaCV.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TenCV.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

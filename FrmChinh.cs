@@ -34,5 +34,11 @@ namespace CuaHangGiayDep
             frmTheLoai DM_TL = new frmTheLoai();
             DM_TL.ShowDialog();
         }
+
+        private void mnuCongViec_Click(object sender, EventArgs e)
+        {
+            frmCongViec DM_CV = new frmCongViec();
+            DM_CV.ShowDialog();
+        }
     }
 }

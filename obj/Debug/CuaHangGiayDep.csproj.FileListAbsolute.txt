@@ -29,3 +29,4 @@ D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.Properties
 D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.csproj.GenerateResource.cache
 D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.exe
 D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.pdb
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.frmCongViec.resources
