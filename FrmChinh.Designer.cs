@@ -74,14 +74,12 @@
             this.mnuCo.Name = "mnuCo";
             this.mnuCo.Size = new System.Drawing.Size(224, 26);
             this.mnuCo.Text = "Cỡ";
-            this.mnuCo.Click += new System.EventHandler(this.mnuCo_Click);
             // 
             // mnuChatLieu
             // 
             this.mnuChatLieu.Name = "mnuChatLieu";
             this.mnuChatLieu.Size = new System.Drawing.Size(224, 26);
             this.mnuChatLieu.Text = "Chất liệu";
-            this.mnuChatLieu.Click += new System.EventHandler(this.mnuChatLieu_Click);
             // 
             // mnuHoaDon
             // 

@@ -29,17 +29,6 @@ namespace CuaHangGiayDep
             Application.Exit();
         }
 
-        private void mnuCo_Click(object sender, EventArgs e)
-        {
-            FrmCo DM_Co = new FrmCo();
-            DM_Co.ShowDialog();
-
-        }
-
-        private void mnuChatLieu_Click(object sender, EventArgs e)
-        {
-            FrmChatLieu DM_CL = new FrmChatLieu();
-            DM_CL.ShowDialog();
-        }
+       
     }
 }
