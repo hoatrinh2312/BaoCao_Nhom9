@@ -29,6 +29,10 @@ namespace CuaHangGiayDep
             Application.Exit();
         }
 
-       
+        private void mnuTheLoai_Click(object sender, EventArgs e)
+        {
+            frmTheLoai DM_TL = new frmTheLoai();
+            DM_TL.ShowDialog();
+        }
     }
 }
