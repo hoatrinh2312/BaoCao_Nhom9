@@ -40,5 +40,11 @@ namespace CuaHangGiayDep
             frmCongViec DM_CV = new frmCongViec();
             DM_CV.ShowDialog();
         }
+
+        private void mnuSanPham_Click(object sender, EventArgs e)
+        {
+            frmSanPham DM_SP = new frmSanPham();
+            DM_SP.ShowDialog();
+        }
     }
 }

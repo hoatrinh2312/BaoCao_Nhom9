@@ -42,6 +42,7 @@
             this.mnuBaoCao = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuThoat = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuCongViec = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSanPham = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,7 +69,8 @@
             this.mnuCo,
             this.mnuChatLieu,
             this.mnuTheLoai,
-            this.mnuCongViec});
+            this.mnuCongViec,
+            this.mnuSanPham});
             this.mnuDanhMuc.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mnuDanhMuc.Name = "mnuDanhMuc";
             this.mnuDanhMuc.Size = new System.Drawing.Size(142, 37);
@@ -163,6 +165,13 @@
             this.mnuCongViec.Text = "Công Việc";
             this.mnuCongViec.Click += new System.EventHandler(this.mnuCongViec_Click);
             // 
+            // mnuSanPham
+            // 
+            this.mnuSanPham.Name = "mnuSanPham";
+            this.mnuSanPham.Size = new System.Drawing.Size(270, 40);
+            this.mnuSanPham.Text = "Sản Phẩm";
+            this.mnuSanPham.Click += new System.EventHandler(this.mnuSanPham_Click);
+            // 
             // FrmChinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 30F);
@@ -198,6 +207,7 @@
         private System.Windows.Forms.ToolStripMenuItem tìmKiếmHĐBToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mnuTheLoai;
         private System.Windows.Forms.ToolStripMenuItem mnuCongViec;
+        private System.Windows.Forms.ToolStripMenuItem mnuSanPham;
     }
 }
 

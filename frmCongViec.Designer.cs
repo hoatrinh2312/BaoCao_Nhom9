@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCongViec));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtTenCV = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -240,6 +241,7 @@
             this.Controls.Add(this.dataGridView_CongViec);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCongViec";
             this.Text = "frmCongViec";
             this.Load += new System.EventHandler(this.frmCongViec_Load);
