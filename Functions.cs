@@ -14,7 +14,7 @@ namespace CuaHangGiayDep
         public static void Connection()
         {
             con = new SqlConnection();
-            con.ConnectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=CuaHangGiayDep1;Integrated Security=True";
+            con.ConnectionString = "Data Source=DESKTOP-N5IMV44\\SQLEXPRESS;Initial Catalog=CuaHangGiayDep;Integrated Security=True";
             con.Open();
         }
         public static void Disconnect()
