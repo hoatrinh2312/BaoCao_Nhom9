@@ -45,9 +45,9 @@
             this.mnuBaoCao = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuThoat = new System.Windows.Forms.ToolStripMenuItem();
             this.danhSáchHĐNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            //this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            //((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -187,14 +187,14 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::CuaHangGiayDep.Properties.Resources._93257524_644778159435561_1428498447543042048_n;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 43);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(982, 610);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+           // this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+           // this.pictureBox1.Image = global::CuaHangGiayDep.Properties.Resources._93257524_644778159435561_1428498447543042048_n;
+            //this.pictureBox1.Location = new System.Drawing.Point(0, 43);
+           // this.pictureBox1.Name = "pictureBox1";
+           // this.pictureBox1.Size = new System.Drawing.Size(982, 610);
+           // this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+           // this.pictureBox1.TabIndex = 2;
+           // this.pictureBox1.TabStop = false;
             // 
             // FrmChinh
             // 
@@ -213,7 +213,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+           // ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -237,7 +237,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnuCongViec;
         private System.Windows.Forms.ToolStripMenuItem mnuSanPham;
         private System.Windows.Forms.ToolStripMenuItem danhSáchHĐNToolStripMenuItem;
-        private System.Windows.Forms.PictureBox pictureBox1;
+       // private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
