@@ -243,6 +243,7 @@
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCongViec";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCongViec";
             this.Load += new System.EventHandler(this.frmCongViec_Load);
             this.groupBox1.ResumeLayout(false);

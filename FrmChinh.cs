@@ -46,5 +46,11 @@ namespace CuaHangGiayDep
             frmSanPham DM_SP = new frmSanPham();
             DM_SP.ShowDialog();
         }
+
+        private void danhSáchHĐNToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBaoCaoHDN DM_BC = new frmBaoCaoHDN();
+            DM_BC.ShowDialog();
+        }
     }
 }

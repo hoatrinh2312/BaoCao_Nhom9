@@ -65,8 +65,8 @@ namespace CuaHangGiayDep
             txtDonGiaNhap.Text = "";
             txtDonGiaBan.Text = "";
             txtSoLuong.Enabled = true;
-            txtDonGiaNhap.Enabled = false;
-            txtDonGiaBan.Enabled = false;
+            //txtDonGiaNhap.Enabled = false;
+           // txtDonGiaBan.Enabled = false;
             txtAnh.Text = "";
             PicAnh.Image = null;
 
@@ -165,7 +165,7 @@ namespace CuaHangGiayDep
             txtMaGD.Focus();
             txtSoLuong.Enabled = true;
             txtDonGiaNhap.Enabled = true;
-            txtDonGiaBan.Enabled = true;
+            txtDonGiaBan.Enabled =true;
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -335,20 +335,13 @@ namespace CuaHangGiayDep
                 cboMaNSX.Focus();
             }
 
-            sql = "SELECT MaGD FROM SanPham WHERE MaGD='" + txtMaGD.Text.Trim() + "'";
-            if (Functions.CheckKey(sql))
-            {
-                MessageBox.Show("Mã giày dép này đã tồn tại, bạn phải chọn mã giầy dép khác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                txtMaGD.Focus();
-                return;
-            }
+           
             sql = "select MaGD From SanPham Where MaGD='" + txtMaGD.Text.Trim() + "'";
 
             if (Functions.CheckKey(sql))
             {
                 MessageBox.Show("Mã Giày dép này đã có, bạn vui lòng nhập mã khác", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtMaGD.Focus();
-                txtMaGD.Text = "";
                 return;
             }
 
@@ -386,6 +379,40 @@ namespace CuaHangGiayDep
                 dgn = Convert.ToDouble(txtDonGiaNhap.Text);
             dgb = dgn * 1.1;
             txtDonGiaBan.Text = dgb.ToString();
+        }
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            string sql;
+            if ((txtMaGD.Text == "") && (txtTenGD.Text == ""))
+            {
+                MessageBox.Show("Bạn hãy nhập điều kiện tìm kiếm", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (txtMaGD.Text == "" && txtTenGD.Text == "")
+            {
+                MessageBox.Show("Bạn phải nhập điều kiệm tìm kiếm", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtMaGD.Focus();
+                return;
+            }
+            sql = "SELECT * from SanPham WHERE 1=1";
+            if (txtMaGD.Text != "")
+                sql += " AND MaGD LIKE '%" + txtMaGD.Text + "%'";
+            if (txtTenGD.Text != "")
+                sql += " AND TenGD LIKE '%" + txtTenGD.Text + "%'";
+
+            tableSanPham = Functions.GetDataToTable(sql);
+            if (tableSanPham.Rows.Count == 0)
+                MessageBox.Show("Không có bản ghi thoả mãn điều kiện tìm kiếm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else MessageBox.Show("Có " + tableSanPham.Rows.Count + "  bản ghi thoả mãn điều kiện!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            dataGridView_SanPham.DataSource = tableSanPham;
+            ResetValues();
+        }
+
+        private void btnHienThiDS_Click(object sender, EventArgs e)
+        {
+            loatDaTaToGridview();
         }
     }
 }

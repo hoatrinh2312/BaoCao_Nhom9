@@ -31,3 +31,5 @@ D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.exe
 D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.pdb
 D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.frmCongViec.resources
 D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.frmSanPham.resources
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.csproj.ResolveComReference.cache
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.frmBaoCaoHDN.resources
