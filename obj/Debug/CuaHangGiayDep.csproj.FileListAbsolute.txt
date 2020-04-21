@@ -20,3 +20,16 @@ C:\Users\dell\Desktop\BaiTapLon\obj\Debug\CuaHangGiayDep.csproj.GenerateResource
 C:\Users\dell\Desktop\BaiTapLon\obj\Debug\CuaHangGiayDep.exe
 C:\Users\dell\Desktop\BaiTapLon\obj\Debug\CuaHangGiayDep.pdb
 C:\Users\dell\Desktop\BaiTapLon\obj\Debug\CuaHangGiayDep.FrmChatLieu.resources
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\bin\Debug\CuaHangGiayDep.exe
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\bin\Debug\CuaHangGiayDep.pdb
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.csprojAssemblyReference.cache
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.FrmChinh.resources
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.frmTheLoai.resources
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.Properties.Resources.resources
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.csproj.GenerateResource.cache
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.exe
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.pdb
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.frmCongViec.resources
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.frmSanPham.resources
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.csproj.ResolveComReference.cache
+D:\Nhom9_CuaHangGiayDep\nhom9_cuahanggiaydep\obj\Debug\CuaHangGiayDep.frmBaoCaoHDN.resources
