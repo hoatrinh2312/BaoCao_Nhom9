@@ -45,6 +45,11 @@ namespace CuaHangGiayDep
 
         private void btnThem_Click(object sender, EventArgs e)
         {
+            btnSua.Enabled = false;
+            btnXoa.Enabled = false;
+            btnHuy.Enabled = true;
+            btnLuu.Enabled = true;
+            btnThem.Enabled = false;
             ResetValues();
             txtMaLoai.Enabled = true;
         }
@@ -129,8 +134,8 @@ namespace CuaHangGiayDep
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("bạn có chắc chắn muốn thoát chương trình không", "Thông Báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                Application.Exit();
+            if (MessageBox.Show("bạn có chắc chắn muốn thoát chương trình không", "Hỏi Thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                this.Close();
         }
     }
 }

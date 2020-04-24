@@ -69,8 +69,6 @@ namespace CuaHangGiayDep
                 "' WHERE MaCV='" + txtMaCV.Text + "'";
             MessageBox.Show(sql);
             Functions.RunSqlDel(sql);
-            //SqlCommand cmd = new SqlCommand(sql, con);
-            //cmd.ExecuteNonQuery();
             loatDaTaToGridview();
             btnSua.Enabled = false;
         }
@@ -130,7 +128,7 @@ namespace CuaHangGiayDep
         private void btnThoat_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("bạn có chắc chắn muốn thoát chương trình không", "Hỏi Thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                Application.Exit();
+                this.Close();
         }
     }
 }

@@ -69,10 +69,8 @@ namespace CuaHangGiayDep
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn có chắc chắn muốn thoát không? ", "Thông Báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
+            if (MessageBox.Show("bạn có chắc chắn muốn thoát chương trình không", "Hỏi Thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                this.Close();
         }
 
         private void btnInBaoCao_Click(object sender, EventArgs e)
@@ -177,6 +175,11 @@ namespace CuaHangGiayDep
 
             exSheet.Name = "Báo Cáo HĐN";
             exApp.Visible = true;
+        }
+
+        private void frmBaoCaoHDN_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
